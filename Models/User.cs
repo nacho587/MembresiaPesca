@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MembresiaPesca.Models
 {
-    public class Users
+    public class User
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // hace al id un auto incrment en la BdD
         public int Id { get; set; }
